@@ -1,3 +1,96 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/java,intellij+iml
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,intellij+iml
+
+BenchmarkingClient/resources
+BenchmarkingClient/results
+
+### Intellij+iml ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+BenchmarkingClient/.idea/**/workspace.xml
+BenchmarkingClient/.idea/**/tasks.xml
+BenchmarkingClient/.idea/**/usage.statistics.xml
+BenchmarkingClient/.idea/**/dictionaries
+BenchmarkingClient/.idea/**/shelf
+
+# AWS User-specific
+BenchmarkingClient/.idea/**/aws.xml
+
+# Generated files
+BenchmarkingClient/.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+BenchmarkingClient/.idea/**/dataSources/
+BenchmarkingClient/.idea/**/dataSources.ids
+BenchmarkingClient/.idea/**/dataSources.local.xml
+BenchmarkingClient/.idea/**/sqlDataSources.xml
+BenchmarkingClient/.idea/**/dynamic.xml
+BenchmarkingClient/.idea/**/uiDesigner.xml
+BenchmarkingClient/.idea/**/dbnavigator.xml
+
+# Gradle
+BenchmarkingClient/.idea/**/gradle.xml
+BenchmarkingClient/.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+BenchmarkingClient/.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+BenchmarkingClient/out/
+
+
+# mpeltonen/sbt-idea plugin
+BenchmarkingClient/.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+BenchmarkingClient/.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+BenchmarkingClient/
+# Android studio 3.1+ serialized cache file
+BenchmarkingClient/.idea/caches/build_file_checksums.ser
+
+### Intellij+iml Patch ###
+# Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
+
+*.iml
+BenchmarkingClient/modules.xml
+BenchmarkingClient/.idea/misc.xml
+*.ipr
+
+### Java ###
 # Compiled class file
 *.class
 
@@ -21,3 +114,6 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# End of https://www.toptal.com/developers/gitignore/api/java,intellij+iml
+

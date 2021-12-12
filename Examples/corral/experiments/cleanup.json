@@ -1,0 +1,14 @@
+{
+    "query": 0,
+    "backend": "lambda",
+    "experiment": "$CORRAL_EXPERIMENT",
+    "verbose": true,
+    "debug": true,
+    "endpoint": "s3://$CORRAL_LAMBDABUCKET",
+    "lambdaS3Key": "corral.zip",
+    "lambdaS3Bucket": "$CORRAL_LAMBDABUCKET",
+    "undeploy": true,
+    "randomize": true,
+    "validation": false,
+    "cache": ""
+    }

@@ -1,0 +1,27 @@
+{
+
+  "execution": {
+    "image": "durgen/corral-tpc-h:1.0.0",
+    "input": "corral-tpc-h",
+    "awsConfig": {
+      "AWS_ACCESS_KEY_ID": "xxx",
+      "AWS_SECRET_ACCESS_KEY": "xxx",
+      "AWS_DEFAULT_REGION": "eu-central-1"
+    },
+    "environment": {
+      "prefix": "CORRAL_",
+      "lambdaMemory": 1024,
+      "lambdaTimeout": 100,
+      "maxConcurrency": 1000,
+      "lambdaManageRole": false,
+      "lambdaRoleArn": "xxx",
+      "lambdaBucket": "corral-tpc-h",
+      "experiment": "input"
+    },
+    "ownMetrics": true
+  },
+  "result": {
+    "rawResults": true,
+    "metricGeneration": "cloudwatch"
+  }
+}
